@@ -17,7 +17,7 @@ if imgfile is not None:
     st.write(imgfile.name)
 
 if (st.button("Analyse the image")):
-    imgpath = "Images\\" + imgfile.name
+    imgpath = "./Images/" + imgfile.name
     
     with st.spinner('Please wait image analysis is in progress!!!'):
         result = Main.ProcessImage(imgpath)
