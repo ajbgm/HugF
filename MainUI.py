@@ -24,7 +24,7 @@ if (st.button("Analyse the image")):
         time.sleep(5)
         st.write("Image analysed....")
         st.write(result)
-         if os.path.exists(imgpath):
-            os.remove(imgpath)
+        if os.path.exists(imgpath):
+           os.remove(imgpath)
      
         
