@@ -26,5 +26,6 @@ if (st.button("Analyse the image")):
         st.write(result)
         if os.path.exists(imgpath):
            os.remove(imgpath)
+           st.cache_resource.clear()
      
         
